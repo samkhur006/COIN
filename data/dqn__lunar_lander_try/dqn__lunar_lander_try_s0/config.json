@@ -1,0 +1,55 @@
+{
+    "ac_kwargs":	{},
+    "base_perf":	0,
+    "base_q_net_path":	null,
+    "batch_size":	32,
+    "env_fn":	"MyLunarLander",
+    "env_seed":	-1,
+    "ep_ret_buffer":	"deque([], maxlen=100)",
+    "epochs":	70,
+    "epsilon_end":	0.1,
+    "epsilon_frac":	0.1,
+    "epsilon_start":	1,
+    "exp_name":	"dqn__lunar_lander_try",
+    "exploration_strategy":	"eps",
+    "gamma":	0.99,
+    "grad_steps":	1,
+    "log_freq":	10,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7fda52433b00>":	{
+            "episode_dict":	{},
+            "epoch_dict":	{},
+            "exp_name":	"dqn__lunar_lander_try",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/guest123/SPRING/spinning-coin/data/dqn__lunar_lander_try/dqn__lunar_lander_try_s0",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/guest123/SPRING/spinning-coin/data/dqn__lunar_lander_try/dqn__lunar_lander_try_s0/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"dqn__lunar_lander_try",
+        "output_dir":	"/home/guest123/SPRING/spinning-coin/data/dqn__lunar_lander_try/dqn__lunar_lander_try_s0"
+    },
+    "max_ep_len":	1000,
+    "max_grad_norm":	10,
+    "mimic_base":	false,
+    "num_test_episodes":	0,
+    "polyak":	0.995,
+    "q_lr":	0.0001,
+    "q_net":	"DQNQFunction",
+    "regret":	0,
+    "replay_size":	1000000,
+    "save_freq":	5000,
+    "seed":	0,
+    "steps_per_epoch":	5000,
+    "temperature_end":	0.1,
+    "temperature_frac":	0.5,
+    "temperature_start":	10,
+    "training_starts":	0,
+    "update_interval":	50
+}

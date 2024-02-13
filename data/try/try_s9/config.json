@@ -1,0 +1,46 @@
+{
+    "ac_kwargs":	{},
+    "batch_size":	32,
+    "bonus":	0.2,
+    "bonus_freq":	5000,
+    "cum_bonus":	0.2,
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7f5246e701e0>",
+    "env_seed":	-1,
+    "ep_ret_buffer":	"deque([], maxlen=100)",
+    "epochs":	50,
+    "exp_name":	"try",
+    "gamma":	0.99,
+    "grad_steps":	1,
+    "log_freq":	10,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f5246e74b00>":	{
+            "episode_dict":	{},
+            "epoch_dict":	{},
+            "exp_name":	"try",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/guest123/SPRING/spinning-coin/data/try/try_s9",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/guest123/SPRING/spinning-coin/data/try/try_s9/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"try",
+        "output_dir":	"/home/guest123/SPRING/spinning-coin/data/try/try_s9"
+    },
+    "max_ep_len":	1000,
+    "max_grad_norm":	10,
+    "num_test_episodes":	0,
+    "polyak":	0.995,
+    "q_lr":	0.001,
+    "q_net":	"DQNQFunction",
+    "replay_size":	1000000,
+    "save_freq":	5000,
+    "seed":	9,
+    "steps_per_epoch":	5000,
+    "update_interval":	100
+}
